@@ -1,0 +1,23 @@
+
+public class RunCalc {
+
+	
+	public static void Main()
+	{
+		StatCalc calc = new StatCalc();
+		
+		
+		while(Integer.parseInt(System.console().readLine())!=0)
+		{
+			calc.enterItem(Integer.parseInt(System.console().readLine()));
+		}
+		
+		System.out.println("Count:  "+ calc.getCount());
+		System.out.println("Sum: " + calc.getSum());
+		System.out.println("Sum: " + calc.getMin());
+		System.out.println("Sum: " + calc.getMax());
+		
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+
+public class RunCalc {
+
+	
+	public static void Main()
+	{
+		StatCalc calc = new StatCalc();
+		
+		
+		
+	}
+}

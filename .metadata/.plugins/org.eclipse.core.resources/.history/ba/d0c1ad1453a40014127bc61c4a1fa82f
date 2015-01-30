@@ -1,0 +1,18 @@
+
+public class RunCalc {
+
+	
+	public static void Main()
+	{
+		StatCalc calc = new StatCalc();
+		
+		
+		while(Integer.parseInt(System.console().readLine())!=0)
+		{
+			calc.enterItem(Integer.parseInt(System.console().readLine()));
+			
+		}
+		
+		
+	}
+}

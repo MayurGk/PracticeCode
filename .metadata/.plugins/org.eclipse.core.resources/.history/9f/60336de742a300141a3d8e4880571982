@@ -1,0 +1,23 @@
+
+public class StuClass {
+
+	int test1;
+	String name;
+	
+	public static void main(String[] args) {
+	
+		StuClass std = new StuClass();
+		StuClass std1= new StuClass();
+		
+		std1=std;
+		std.name="Name1";
+		std1.name="Name2";
+		System.out.println(std.name);
+		System.out.println(std1.name);
+		System.out.println(std1.test1==std.test1);
+		
+		
+
+	}
+
+}

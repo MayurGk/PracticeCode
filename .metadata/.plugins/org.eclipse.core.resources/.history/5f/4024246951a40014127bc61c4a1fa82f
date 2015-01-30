@@ -1,0 +1,19 @@
+
+public class StatCalc {
+
+	static int[] DataItem = new int[10];
+	static int cnt=0;
+	public void enterItem(int item)
+	{
+		
+		DataItem[cnt] = item;
+		cnt++;
+	}
+	
+	public void getCount()
+	{
+		
+		
+	}
+	
+}
